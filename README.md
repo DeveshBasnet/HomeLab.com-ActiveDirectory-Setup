@@ -130,3 +130,51 @@ DNS Server: 192.168.4.50
 Domain:     homelab.com
     </pre>
 </div>
+
+
+<hr>
+
+<div>
+    <h2>Client 01 — TestUser01</h2>
+    <p>This section shows the configuration and domain join status for Client01 logged in as TestUser01.</p>
+    <h3>Client01 Screenshot</h3>
+    <img width="1265" height="902" alt="Domain Join Screenshot"
+         src="https://github.com/user-attachments/assets/ae1db2e7-2b64-405f-aa04-d051209e2fe8" />
+    <br>
+    <img width="1018" height="327" alt="Client01 Screenshot"
+         src="https://github.com/user-attachments/assets/a5669ec1-e87d-4270-8165-52b7d07518e7" />
+</div>
+
+<hr>
+
+<div>
+    <h2>Network Details for TestUser01</h2>
+    <p>Network configuration of the client machine after joining the <strong>homelab.com</strong> domain.</p>
+    <img width="647" height="443" alt="Network Details"
+         src="https://github.com/user-attachments/assets/69df19a3-51bc-42f5-ae97-8cbedfa8a0b4" />
+</div>
+
+<hr>
+
+<div>
+    <h2>Group Policy Management</h2>
+    <p>
+        Added the <strong>Workstation - Local Admin Rights</strong> group to the <strong>homelab.com</strong> forest.  
+        This allows Domain Admins to automatically become members of the local Administrators group on all domain‑joined PCs.  
+        This ensures domain admins can perform administrative tasks on client machines without needing local credentials.
+    </p>
+    <h3>GPO Screenshot</h3>
+    <img width="1268" height="872" alt="image" src="https://github.com/user-attachments/assets/50da2759-1019-47f9-aefb-97fbc091da51" />
+
+</div>
+
+<hr>
+
+<div>
+    <h2>Policy Applied on Client PC</h2>
+    <p>Below is the confirmation that the Group Policy has been successfully applied on the domain‑joined client machine.</p>
+    <h3>Confirmation of IT Level 1 being the admin for the Workstation </h3>
+    <img width="1271" height="872" alt="image" src="https://github.com/user-attachments/assets/7e50a87e-0cc2-45b3-baaa-822b97460d77" />
+
+</div>
+
