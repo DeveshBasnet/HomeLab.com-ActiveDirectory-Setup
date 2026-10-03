@@ -9,24 +9,7 @@ Domain Controller Hostname	DC01
 Domain Controller IP	192.168.4.50
 Network Subnet	192.168.4.0/24
 
-+-----------------------------------------------------------+
-|                       HomeLab Network                     |
-|                        192.168.4.0/24                     |
-+-----------------------------------------------------------+
-        |                         |                     |
-        |                         |                     |
-   +---------+              +-----------+          +-----------+
-   |  DC01   |              |TestUser01 |          | TestUser02|
-   | WinSrv  |              | Win10/11  |          | Win10/11  |
-   | AD DS   |              | Domain    |          | Domain    |
-   | DNS     |              | Joined    |          | Joined    |
-   | DHCP    |              |           |          |           |
-   +---------+              +-----------+          +-----------+
-        |
-        +-- Reverse Lookup Zone
-        +-- DHCP Scope
-        +-- Test Users
-        
+      
 
 <img width="1037" height="800" alt="image" src="https://github.com/user-attachments/assets/d1817a78-a270-423d-9305-6f48dc6a3111" />
 
