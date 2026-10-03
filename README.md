@@ -18,6 +18,8 @@
     </table>
 </div>
 
+<img width="1268" height="866" alt="image" src="https://github.com/user-attachments/assets/050a4b6f-eb0b-475f-8031-beff5ab92021" />
+
 <hr>
 
 <div>
@@ -83,6 +85,9 @@ DNS Server:      192.168.4.50
 
 <div>
     <h2>3. Install Active Directory Domain Services (AD DS)</h2>
+<br>
+    <img width="1296" height="876" alt="image" src="https://github.com/user-attachments/assets/91f244eb-f8b4-445e-a752-5b50968bbdd4" />
+<br>
     <ol>
         <li>Open Server Manager</li>
         <li>Add Roles and Features</li>
@@ -96,6 +101,7 @@ DNS Server:      192.168.4.50
 
 <div>
     <h2>4. DNS Server Configuration</h2>
+    <img width="1207" height="840" alt="image" src="https://github.com/user-attachments/assets/7579bfa0-8581-4668-97b1-b9b8160f90c2" />
     <h3>Forward Lookup Zone</h3>
     <p>Created automatically: <strong>homelab.com</strong></p>
     <h3>Reverse Lookup Zone</h3>
@@ -114,6 +120,7 @@ Hostname: DC01.homelab.com
 
 <div>
     <h2>5. DHCP Server Setup</h2>
+    <img width="1238" height="873" alt="image" src="https://github.com/user-attachments/assets/166a590c-53e2-4041-be0f-051c55acd706" />
     <pre>
 Scope Name: HomeLabDHCP
 Start IP:   192.168.4.100
