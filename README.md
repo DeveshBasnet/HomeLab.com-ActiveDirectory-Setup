@@ -47,7 +47,6 @@
 
 <div>
     <h2>1. Virtual Machine Setup</h2>
-
     <h3>Windows Server VM (DC01)</h3>
     <ul>
         <li>OS: Windows Server 2022 / 2019</li>
@@ -61,7 +60,6 @@
             </ul>
         </li>
     </ul>
-
     <h3>Client VMs</h3>
     <ul>
         <li>Windows 10 / Windows 11</li>
@@ -98,16 +96,13 @@ DNS Server:      192.168.4.50
 
 <div>
     <h2>4. DNS Server Configuration</h2>
-
     <h3>Forward Lookup Zone</h3>
     <p>Created automatically: <strong>homelab.com</strong></p>
-
     <h3>Reverse Lookup Zone</h3>
     <pre>
 Zone Name: 4.168.192.in-addr.arpa
 Network ID: 192.168.4.0
     </pre>
-
     <h3>PTR Record</h3>
     <pre>
 Host IP: 192.168.4.50
