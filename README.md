@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HomeLab Domain Controller Setup</title>
-</head>
-
 <body>
 
 <div>
